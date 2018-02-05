@@ -22,7 +22,7 @@ public class HomePageTest {
   public void flightbook() throws IOException {
 	  
 	driver.get(prop.getProperty("URL"));
-		
+		System.out.println("done successfully");
   }
   
   @BeforeMethod
